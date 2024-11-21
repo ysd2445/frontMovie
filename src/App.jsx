@@ -7,10 +7,15 @@ import ProtectRoute from './components/protectedroute'
 import Browse from './components/Browse'
 import SearchPage from './components/SearchPage'
 import SignUpPage from './components/SignUp'
+import FIrstPage from './components/FIrstPage'
 const router = createBrowserRouter([
   {
     path:"/Login",
     element:<LoginPage/>
+  },
+  {
+    path:"/",
+    element:<FIrstPage/>
   },
   {
     path:"/browse",
