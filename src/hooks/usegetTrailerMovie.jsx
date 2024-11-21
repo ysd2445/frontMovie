@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useDispatch } from "react-redux";
-import { setTrailer } from "../redux/movieSlice";
+import { setTrailer } from "../Redux/movieSlice";
 import { options } from "../utils/utils";
 
 export const usegetTrailerMovie = () => {
