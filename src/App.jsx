@@ -11,7 +11,7 @@ import FIrstPage from './components/FIrstPage'
 const router = createBrowserRouter([
   {
     path:"/Login",
-    element:<LoginPage/>
+    element:<ProtectRoute><LoginPage/></ProtectRoute>
   },
   {
     path:"/",
@@ -19,11 +19,11 @@ const router = createBrowserRouter([
   },
   {
     path:"/browse",
-    element:<Browse/>
+    element:<ProtectRoute><Browse/></ProtectRoute>
   },
   {
     path:"/search",
-    element:<SearchPage/>
+    element:<ProtectRoute><SearchPage/></ProtectRoute>
   },
   {
     path:"/signup",
