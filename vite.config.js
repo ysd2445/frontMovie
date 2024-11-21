@@ -1,8 +1,7 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "./", // Use relative paths
-
+  base: "/",  // Ensure the base path is set to root for correct asset paths
   build: {
     rollupOptions: {
       output: {
@@ -14,4 +13,3 @@ export default defineConfig({
     },
   },
 });
-
